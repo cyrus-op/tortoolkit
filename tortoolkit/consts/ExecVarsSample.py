@@ -8,7 +8,7 @@ except:
         API_HASH = "9d95cd9e9bede6332e1da19276d9ad63"
         API_ID = 2526751
         BOT_TOKEN = "1551957175:AAFWofwd0tTDETmCyDQaNuvIvkdsX-Q8z48"
-        BASE_URL_OF_BOT = "1551957175:AAFWofwd0tTDETmCyDQaNuvIvkdsX-Q8z48"
+        BASE_URL_OF_BOT = "http://t.me/FlixLKTorrentLeech_Bot"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1197580900,-1001468189721]
         
