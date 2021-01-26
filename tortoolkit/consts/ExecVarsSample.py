@@ -5,15 +5,15 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "9d95cd9e9bede6332e1da19276d9ad63"
+        API_ID = 2526751
+        BOT_TOKEN = "1551957175:AAFWofwd0tTDETmCyDQaNuvIvkdsX-Q8z48"
+        BASE_URL_OF_BOT = "1551957175:AAFWofwd0tTDETmCyDQaNuvIvkdsX-Q8z48"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [1197580900,-1001468189721]
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = True
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -25,13 +25,13 @@ except:
         FORCE_DOCUMENTS = False
 
         # Chracter to use as a completed progress 
-        COMPLETED_STR = "▰"
+        COMPLETED_STR = "★"
 
         # Chracter to use as a incomplete progress
-        REMAINING_STR = "▱"
+        REMAINING_STR = "☆"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgresql://postgres:wearelivinginmovies@postgresql/postgres"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -45,13 +45,13 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
         
         # Name of the RCLONE drive from the config
         DEF_RCLONE_DRIVE = ""
