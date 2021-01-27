@@ -13,7 +13,7 @@ except:
         ALD_USR = [1197580900,-1001468189721]
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = True
+        GD_INDEX_URL = False
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -57,7 +57,7 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 30
         
         # Max size of the torrent allowed
         MAX_TORRENT_SIZE = 10
